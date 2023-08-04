@@ -1,0 +1,156 @@
+.herologo {
+    position: absolute;
+    width: 100%;
+    top: 92px;
+    right: 0px;
+    left: 0px;
+    height: 792px;
+}
+.allanFebrianDiavanda1 {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 41px;
+}
+.aUiuxDesigner {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 41px;
+    color: rgba(60, 60, 67, 0.6);
+    display: inline-block;
+    width: 775px;
+}
+.captionTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.button1 {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+}
+.button {
+    border-radius: 12px;
+    background-color: #000;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05) inset, -1px 0px 1px rgba(0, 0, 0, 0.05) inset, 0px 1px 1px rgba(0, 0, 0, 0.05) inset, 1px 0px 1px rgba(0, 0, 0, 0.05) inset, 0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+    padding: 14px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 17px;
+    color: #fff;
+}
+.captionTitleParent {
+    position: absolute;
+    top: calc(50% - 105px);
+    left: calc(50% - 388px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.vectorIcon1 {
+    position: relative;
+    width: 22px;
+    height: 24px;
+}
+.logo {
+    border-radius: 100px;
+    background-color: #000;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 44px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.twitterSvg1 {
+    position: relative;
+    width: 29.12px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linkedinSvgIcon {
+    position: relative;
+    width: 28.43px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.instagramSvgIcon1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.figmaSvgIcon1 {
+    position: relative;
+    width: 17.42px;
+    height: 24.45px;
+}
+.twitterSvgParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    z-index: 1;
+}
+.about {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 25px;
+}
+.aboutParent {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 121.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    z-index: 2;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 160px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(60, 60, 67, 0.6);
+}
+.hero {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    height: 884px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-family: Inter;
+}
+
