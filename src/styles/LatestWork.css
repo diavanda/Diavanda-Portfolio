@@ -17,14 +17,7 @@
     justify-content: center;
     gap: 32px;
 }
-.screens-icon {
-    position: absolute;
-    top: 99.56px;
-    left: 80px;
-    width: 499.9px;
-    height: 406.26px;
-    object-fit: cover;
-}
+
 .frame-child {
     position: relative;
     width: 50px;
@@ -140,5 +133,66 @@
     font-size: 22px;
     color: rgba(60, 60, 67, 0.6);
     font-family: Inter;
+}
+
+.screens {
+    width: 500px;
+    height: 406px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.screens .overlap-group {
+    position: relative;
+    height: 402px;
+}
+
+.screens .screen {
+    position: absolute;
+    width: 203px;
+    height: 253px;
+    top: 53px;
+    left: 297px;
+}
+
+.screens .shadow {
+    width: 147px;
+    height: 320px;
+    top: 50px;
+    left: 237px;
+    border-radius: 17px;
+    transform: rotate(5deg);
+    position: absolute;
+    background-color: #0000001a;
+    filter: blur(42.62px);
+}
+
+.screens .img {
+    position: absolute;
+    width: 187px;
+    height: 287px;
+    top: 19px;
+    left: 165px;
+}
+
+.screens .div {
+    width: 171px;
+    height: 370px;
+    top: 26px;
+    left: 71px;
+    border-radius: 25px;
+    transform: rotate(-5deg);
+    position: absolute;
+    background-color: #0000001a;
+    filter: blur(42.62px);
+}
+
+.screens .screen-2 {
+    position: absolute;
+    width: 215px;
+    height: 306px;
+    top: 0;
+    left: 0;
 }
 
