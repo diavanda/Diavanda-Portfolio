@@ -1,6 +1,7 @@
 ---
 import Navbar from '../components/Navbar.astro'
 import Hero from '../components/Hero.astro'
+import LatestWork from '../components/LatestWork.astro'
 const { title } = Astro.props
 ---
 
@@ -19,6 +20,7 @@ const { title } = Astro.props
     <main>
         <slot />
         <Hero />
+        <LatestWork />
     </main>
 
   </body>
