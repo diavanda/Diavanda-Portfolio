@@ -1,0 +1,144 @@
+.text-child {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), rgba(128, 128, 128, 0.3);
+    height: 1px;
+}
+.some-of-my {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 28px;
+}
+.text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.screens-icon {
+    position: absolute;
+    top: 99.56px;
+    left: 80px;
+    width: 499.9px;
+    height: 406.26px;
+    object-fit: cover;
+}
+.frame-child {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+}
+.adamo-ai-mobile {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 41px;
+    display: inline-block;
+    width: 500px;
+    flex-shrink: 0;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 33px;
+    left: 40px;
+    width: 580px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.screens-parent {
+    align-self: stretch;
+    position: relative;
+    border-radius: 40px;
+    background-color: #f4f4f4;
+    height: 427px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.screens-icon1 {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 729.43px;
+    object-fit: cover;
+}
+.screens-group {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 40px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.frame-group {
+    flex: 1;
+    height: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.logo-1-icon {
+    position: relative;
+    width: 30px;
+    height: 41px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.screens-container {
+    align-self: stretch;
+    position: relative;
+    border-radius: 40px;
+    background-color: #f4f4f4;
+    height: 793px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.screens-2-icon {
+    position: absolute;
+    bottom: -78.82px;
+    left: calc(50% - 250px);
+    width: 499.9px;
+    height: 406.26px;
+    object-fit: cover;
+}
+.alaya-1-icon {
+    position: relative;
+    width: 36px;
+    height: 41px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 34px;
+}
+.latest-work {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    text-align: left;
+    font-size: 22px;
+    color: rgba(60, 60, 67, 0.6);
+    font-family: Inter;
+}
+
