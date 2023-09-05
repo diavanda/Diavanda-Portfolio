@@ -1,0 +1,110 @@
+.vector-icon {
+  position: relative;
+  width: 22px;
+  height: 24px;
+}
+.logo1 {
+  border-radius: 100px;
+  background-color: #3c3c3c;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.twitter-svg {
+  position: relative;
+  width: 29.12px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkedin-svg-icon {
+  position: relative;
+  width: 28.43px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.instagram-svg-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.figma-svg-icon {
+  position: relative;
+  width: 17.42px;
+  height: 24.45px;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.about {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 25px;
+  font-family: Inter;
+  color: rgba(60, 60, 67, 0.6);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 24px;
+  text-decoration: none;
+}
+.links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+}
+.navbar {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(60, 60, 67, 0.6);
+  font-family: Inter;
+}
+
+a {
+  position: relative;
+  align-items: center;
+  height: 24px;
+}
+
+
+
+.about:hover {
+  color: black;
+}
+
+
