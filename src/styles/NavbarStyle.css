@@ -32,6 +32,15 @@
   flex-shrink: 0;
 }
 
+#rectangle:hover path{
+  stroke: black; 
+}
+
+svg:hover path{
+  fill: black;
+}
+
+
 
 .linkedin-svg-icon {
   position: relative;
