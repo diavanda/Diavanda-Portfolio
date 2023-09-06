@@ -131,13 +131,3 @@
     color: rgba(60, 60, 67, 0.6);
     font-family: Inter;
 }
-
-#hover-1 {
-    background: url(App-1/Light.png) no-repeat;
-    background-color: #f4f4f4;
-}
-
-#hover-1:hover {
-    background: url(public/Alaya-1.png) no-repeat;
-    background-color: #2C2C2E;
-}
