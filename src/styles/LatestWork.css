@@ -122,15 +122,18 @@
     width: 233.91px;
     height: 627px;
     object-fit: cover;
+    flex-shrink: 0;
+    object-position: 0px 100%;
 }
 .shadow {
     position: absolute;
     bottom: 0px;
     left: calc(50% - 175px);
     background-color: rgba(0, 0, 0, 0.2);
-    filter: blur(57.43px);
+    filter: blur(40px);
     width: 331px;
     height: 696px;
+    
 }
 .screen-1-icon1 {
     position: absolute;
@@ -140,6 +143,7 @@
     height: 696px;
     object-fit: cover;
     flex-shrink: 0;
+    object-position: 0px 0%;
 }
 .screens1 {
     position: absolute;
