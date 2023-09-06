@@ -1,15 +1,20 @@
+.vector-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
 
 .logo1 {
-  border-radius: 100px;
-  background-color: #3c3c3c;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  /* width: 44px; */
   display: flex;
-  flex-direction: row;
-  /* padding: 10px; */
-  box-sizing: border-box;
-  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--label-primary-light, #3C3C3C);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
 }
 .logo {
   flex: 1;
@@ -27,10 +32,6 @@
   flex-shrink: 0;
 }
 
-a:hover .twitter-svg-icon {
-  background: url(Desktop/NewTwitter.svg) no-repeat;
-  
-}
 
 .linkedin-svg-icon {
   position: relative;
