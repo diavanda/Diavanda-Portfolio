@@ -17,8 +17,71 @@
     justify-content: center;
     gap: 32px;
 }
+.screen-3-icon {
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% + 49px);
+    border-radius: 12.79px;
+    object-fit: cover;
+    width: 142px;
+    height: 308px;
+    transform: rotate(12.074deg);
+    flex-shrink: 0;
+}
+.shadow-2 {
+    position: absolute;
+    bottom: 42.49px;
+    left: calc(50% + 1.05px);
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(42.62px);
+    width: 147px;
+    height: 320px;
+    transform:  rotate(5deg);
+    transform-origin: 0 0;
+}
+.screen-2-icon {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 83.44px);
+    border-radius: 17.05px;
+    object-fit: cover;
+    width: 158px;
+    height: 341px;
+    transform: rotate(5.033deg);
+    flex-shrink: 0;
+}
+.shadow-1 {
+    position: absolute;
+    bottom: 2.49px;
+    left: calc(50% - 194.95px);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(42.62px);
+    width: 171px;
+    height: 370px;
+    transform:  rotate(-5deg);
+    transform-origin: 0 0;
+}
+.screen-1-icon {
+    position: absolute;
+    left: calc(50% - 248.52px);
+    border-radius: 17px;
+    object-fit: cover;
+    width: 181px;
+    height: 392px;
+    transform: rotate(-5.033deg);
+    flex-shrink: 0;
+}
 
-.frame-child {
+.screens {
+    position: absolute;
+    top: 121.22px;
+    left: 80px;
+    width: 499.9px;
+    height: 406.26px;
+}
+.text-inner {
     position: relative;
     width: 50px;
     height: 40px;
@@ -32,7 +95,7 @@
     width: 500px;
     flex-shrink: 0;
 }
-.rectangle-parent {
+.text1 {
     position: absolute;
     top: 33px;
     left: 40px;
@@ -52,13 +115,37 @@
     overflow: hidden;
     flex-shrink: 0;
 }
-.screens-icon1 {
+.screen-2-icon1 {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% + 16.09px);
+    width: 233.91px;
+    height: 627px;
+    object-fit: cover;
+}
+.shadow {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 175px);
+    background-color: rgba(0, 0, 0, 0.2);
+    filter: blur(57.43px);
+    width: 331px;
+    height: 696px;
+}
+.screen-1-icon1 {
     position: absolute;
     bottom: 0px;
     left: calc(50% - 250px);
-    width: 500px;
-    height: 729.43px;
+    width: 331.03px;
+    height: 696px;
     object-fit: cover;
+}
+.screens1 {
+    position: absolute;
+    top: 121px;
+    left: 80px;
+    width: 500px;
+    height: 696px;
 }
 .screens-group {
     align-self: stretch;
@@ -77,6 +164,15 @@
     justify-content: center;
     gap: 40px;
 }
+.shadow1 {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 175px);
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: blur(57.43px);
+    width: 331px;
+    height: 696px;
+}
 .logo-1-icon {
     position: relative;
     width: 30px;
@@ -92,14 +188,6 @@
     height: 793px;
     overflow: hidden;
     flex-shrink: 0;
-}
-.screens-2-icon {
-    position: absolute;
-    bottom: -78.82px;
-    left: calc(50% - 250px);
-    width: 499.9px;
-    height: 406.26px;
-    object-fit: cover;
 }
 .alaya-1-icon {
     position: relative;
@@ -133,66 +221,5 @@
     font-size: 22px;
     color: rgba(60, 60, 67, 0.6);
     font-family: Inter;
-}
-
-.screens {
-    width: 500px;
-    height: 406px;
-    position: absolute;
-    top: 100px;
-    left: 80px;
-}
-
-.screens .overlap-group {
-    position: relative;
-    height: 402px;
-}
-
-.screens .screen {
-    position: absolute;
-    width: 203px;
-    height: 253px;
-    top: 53px;
-    left: 297px;
-}
-
-.screens .shadow {
-    width: 147px;
-    height: 320px;
-    top: 50px;
-    left: 237px;
-    border-radius: 17px;
-    transform: rotate(5deg);
-    position: absolute;
-    background-color: #0000001a;
-    filter: blur(42.62px);
-}
-
-.screens .img {
-    position: absolute;
-    width: 187px;
-    height: 287px;
-    top: 19px;
-    left: 165px;
-}
-
-.screens .div {
-    width: 171px;
-    height: 370px;
-    top: 26px;
-    left: 71px;
-    border-radius: 25px;
-    transform: rotate(-5deg);
-    position: absolute;
-    background-color: #0000001a;
-    filter: blur(42.62px);
-}
-
-.screens .screen-2 {
-    position: absolute;
-    width: 215px;
-    height: 306px;
-    top: 0;
-    left: 0;
 }
 
