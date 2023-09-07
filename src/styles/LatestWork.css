@@ -4,6 +4,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), rgba(128, 128, 128, 0.3);
     height: 1px;
 }
+
 .some-of-my {
     position: relative;
     letter-spacing: -0.4px;
@@ -16,6 +17,7 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
+    
 }
 .screen-3-icon {
     position: absolute;
@@ -86,6 +88,7 @@
     width: 50px;
     height: 40px;
     object-fit: cover;
+    
 }
 .adamo-ai-mobile {
     position: relative;
@@ -94,6 +97,7 @@
     display: inline-block;
     width: 500px;
     flex-shrink: 0;
+    
 }
 .text1 {
     position: absolute;
@@ -106,6 +110,7 @@
     justify-content: flex-start;
     gap: 16px;
 }
+
 .screens-parent {
     align-self: stretch;
     position: relative;
@@ -114,6 +119,7 @@
     height: 427px;
     overflow: hidden;
     flex-shrink: 0;
+    
 }
 .screen-2-icon1 {
     position: absolute;
@@ -210,7 +216,9 @@
     justify-content: center;
     gap: 40px;
     font-size: 34px;
+    
 }
+
 .latest-work {
     position: relative;
     width: 100%;
