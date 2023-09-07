@@ -18,9 +18,13 @@
     gap: 40px;
 }
 .mesh-parent{
-    position: relative;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    width: 1360px;
+    height: 428px;
+    flex-shrink: 0;
+    z-index: 0;
 }
 
 .mesh-icon {
