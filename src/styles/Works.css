@@ -36,6 +36,7 @@
     height: 426px;
     overflow: hidden;
     flex-shrink: 0;
+    background-color: #f4f4f4;
 }
 
 video {
