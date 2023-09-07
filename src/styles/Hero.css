@@ -43,6 +43,15 @@
     justify-content: center;
     gap: 32px;
 }
+.splinetool {
+    align-self: stretch;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    justify-content: center;
+}
 .container {
     align-self: stretch;
     flex: 1;
