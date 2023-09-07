@@ -1,0 +1,112 @@
+.text-child {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), rgba(128, 128, 128, 0.3);
+    height: 1px;
+}
+.contact-me {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 28px;
+}
+.text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.mesh-parent{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mesh-icon {
+    width: 100%;
+    display: flex;
+    }
+    
+.spline {
+    position: absolute;
+    margin: 0 !important;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: 1;
+}
+.thank-you-for {
+    margin: 0;
+}
+.thank-you-for-container {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 41px;
+    display: inline-block;
+    width: 436px;
+}
+.button1 {
+    position: relative;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+}
+.button-contact {
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05) inset, -1px 0px 1px rgba(0, 0, 0, 0.05) inset, 0px 1px 1px rgba(0, 0, 0, 0.05) inset, 1px 0px 1px rgba(0, 0, 0, 0.05) inset, 0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+    padding: 14px 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #3c3c3c;
+}
+.title-contact {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 130.5px);
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    z-index: 2;
+}
+.cta {
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    border-radius: 18px;
+    background-color: #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 34px;
+    color: #fff;
+    font-family: Inter;
+}
+.contact {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 32px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    text-align: left;
+    font-size: 22px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
