@@ -59,6 +59,8 @@
     letter-spacing: -0.4px;
     line-height: 22px;
 }
+
+
 .button-contact {
     border-radius: 12px;
     background-color: #fff;
@@ -71,6 +73,12 @@
     font-size: 17px;
     color: #3c3c3c;
 }
+
+.button-contact:hover{
+    background-color: #dfdfdf;
+    color: black;
+}
+
 .title-contact {
     margin: 0 !important;
     position: absolute;
