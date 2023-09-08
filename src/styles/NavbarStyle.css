@@ -180,6 +180,14 @@ a {
 
 }
 
+@media (max-width: 480px) {
+  
+  .navbar {
+    padding: 24px 24px;
+  }
+
+}
+
 
 
 
