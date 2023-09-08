@@ -122,8 +122,18 @@ a {
   background-color: #3C3C3C;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .links {
+    gap: 24px;
+  }
+}
 
 @media (max-width: 768px) {
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(40px);
+  }
 
   .hamburger {
     display: block;

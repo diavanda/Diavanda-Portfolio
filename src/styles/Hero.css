@@ -9,7 +9,7 @@
     line-height: 41px;
     color: rgba(60, 60, 67, 0.6);
     display: inline-block;
-    width: 775px;
+    width: 100%;
 }
 .caption-title {
     display: flex;
@@ -87,4 +87,34 @@ a {
 
 .button:hover {
     background-color: black;
+}
+
+@media (max-width: 768px) {
+    .allan-febrian-diavanda {
+        font-size: 28px;
+    }
+
+    .a-uiux-designer {
+        font-size: 28px;
+    }
+
+    .hero {
+        top: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .allan-febrian-diavanda {
+        font-size: 22px;
+    }
+
+    .a-uiux-designer {
+        font-size: 17px;
+        line-height: 22px;
+    }
 }
