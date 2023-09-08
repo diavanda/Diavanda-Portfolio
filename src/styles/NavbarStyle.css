@@ -16,21 +16,18 @@
   background: var(--label-primary-light, #3C3C3C);
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
 }
+
 .logo {
+
   flex: 1;
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.twitter-svg-icon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
 
 #rectangle:hover path{
   stroke: black; 
@@ -41,39 +38,21 @@ svg:hover path{
 }
 
 
-
-.linkedin-svg-icon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-
-.instagram-svg-icon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.figma-svg-icon {
-  position: relative;
-  width: 17.42px;
-  height: 24.45px;
-}
-
 .social-media {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 32px;
+  transition: all 0.3s;
 }
 
-.about {
+li {
+  list-style: none;
+}
+
+.nav-link {
   position: relative;
   font-size: 20px;
   letter-spacing: -0.4px;
@@ -87,15 +66,31 @@ svg:hover path{
   width: 70px;
   height: 24px;
   text-decoration: none;
+  transition: all 0.3s;
 }
+
+.nav-link:hover {
+  color: black;
+}
+
 .links {
   flex: 1;
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: 32px;
+  text-align: center;
+  height: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .navbar {
   position: relative;
   background-color: #fff;
@@ -109,19 +104,82 @@ svg:hover path{
   text-align: center;
   font-size: 20px;
   color: rgba(60, 60, 67, 0.6);
-  font-family: Inter;
 }
 
-a {
-  position: relative;
-  align-items: center;
-  height: 24px;
+.hamburger {
+  display: none;
+  cursor: pointer;
+
+}
+
+.bar {
+  display: block;
+  width: 24px;
+  height: 3px;
+  margin: 4px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #3C3C3C;
 }
 
 
+@media (max-width: 768px) {
 
-.about:hover {
-  color: black;
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  .links {
+    width: 100%;
+    position: relative;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+    transition: 0.3s;
+  }
+
+  .nav-link {
+    margin: 16px 0;
+  }
+
+  .social-media {
+    display: none;
+    
+  }
+
+  .links.active {
+    display: flex;
+    transition: 0.3s;
+  }
+
+  /* .social-media.active {
+    display: flex;
+  } */
+
 }
+
+
 
 
