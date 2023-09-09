@@ -172,6 +172,7 @@
     border-radius: 40px;
     background-color: #f4f4f4;
     overflow: hidden;
+    height: 793px;
 }
 .card-group {
     flex: 1;
@@ -283,10 +284,142 @@
 
     .brand {
         padding: 0 20px;
+        align-items: center;
     }
 
     .brand-name {
         font-size: 22px;
         line-height: 28px;
+        align-items: center;
     }
 }
+
+@media (min-width: 662px) and (max-width: 768px) {
+
+    .card-container {
+    display:block;
+    gap: 24px;
+    }
+
+    .card-group {
+    margin-top: 24px;
+    gap: 24px;
+    }
+
+
+    .latest-work {
+        padding: 24px 24px 0px 24px;
+    }
+
+    .card-mobile {
+        top: -24px;
+    }
+
+    .card-website {
+        top: -24px;
+    }
+
+}
+
+@media (min-width: 431px) and (max-width: 662px) {
+        .card-container {
+        display:block;
+        gap: 24px;
+        }
+    
+        .card-group {
+        margin-top: 24px;
+        gap: 24px;
+        }
+    
+    
+        .latest-work {
+            padding: 24px 24px 0px 24px;
+        }
+    
+        .card-mobile {
+            top: -24px;
+        }
+    
+        .card-website {
+            top: -24px;
+        }
+
+        .mobile-screens {
+            left: 40px;
+            object-fit: cover;
+        }
+        
+        .website-screens {
+            left: 20px;
+            object-fit: cover;
+        }
+    
+        .brand {
+            padding: 0 20px;
+        }
+    
+        .brand-name {
+            font-size: 22px;
+            line-height: 28px;
+            align-items: center;
+        }
+}
+
+@media (max-width: 431px) {
+    .card-container {
+        display:block;
+        gap: 24px;
+        }
+
+    .card-group {
+        margin-top: 24px;
+        gap: 24px;
+        height: 1024px;
+    }
+
+    .latest-work {
+        padding: 24px 24px 0px 24px;
+    }
+
+    .card-mobile {
+        top: -24px;
+        height: 382px;
+    }
+
+    .card-website {
+        top: -24px;
+        height: 627px;
+    }
+
+    .mobile-screens {
+        top: 108px;
+        left: 0px;
+        object-fit: cover;
+    }
+    
+    .website-screens {
+        top: 108px;
+        left: 0px;
+        object-fit: cover;
+    } 
+        
+
+    .brand {
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .brand-name {
+        font-size: 22px;
+        line-height: 28px;
+        align-items: center;
+    }
+
+    .separator {
+        display: none;
+    }
+}
+
+
+
