@@ -6,55 +6,60 @@ import Display from '../../public/Portfolio-Video.mp4'
 
 
 <div id="workspage" class="works">
+
     <div class="text">
-        <div class="text-child">
+        <div class="separator">
         </div>
-        <b class="my-works">MY WORKS</b>
-        <div class="text-child">
+        <b class="my-works-title">MY WORKS</b>
+        <div class="separator">
         </div>
     </div>
-    <div class="work-frame-1">
-        <img class="app-1-icon" alt="Screen" src="App-1/Light.png" 
-        onmouseover="this.src='App-1/Dark.png'"  onmouseout="this.src='App-1/Light.png'">
-        
-        <img class="app-1-icon" alt="Screen" src="App-2/Light.png"
-        onmouseover=";this.src='App-2/Dark.png'"  onmouseout="this.src='App-2/Light.png'">
-        
-        <img class="app-1-icon" alt="Screen" src="App-3/Light.png"
-        onmouseover=";this.src='App-3/Dark.png'"  onmouseout="this.src='App-3/Light.png'">
-     
-        <img class="app-1-icon" alt="Screen" src="App-4/Light.png"
-        onmouseover=";this.src='App-4/Dark.png'"  onmouseout="this.src='App-4/Light.png'">
 
-        <div class="app-5">
+    <div class="works-frame-1">
+
+        <div class="works-screen-video">
             <video autoplay muted loop>
-                <source src={Display} type='video/mp4' />
-              </video>
+            <source src={Display} type='video/mp4' />
+            </video>
         </div>
+        
+        <img class="works-screen" alt="Screen" src="App-1/Light.png"
+        onmouseover=";this.src='App-1/Dark.png'"  onmouseout="this.src='App-1/Light.png'">
+        
+        <img class="works-screen" alt="Screen" src="App-2/Light.png"
+        onmouseover=";this.src='App-2/Dark.png'"  onmouseout="this.src='App-2/Light.png'">
+     
+        <img class="works-screen" alt="Screen" src="App-3/Light.png"
+        onmouseover=";this.src='App-3/Dark.png'"  onmouseout="this.src='App-3/Light.png'">
 
-        <img class="app-1-icon" alt="Screen" src="App-5/Light.png"
+        <img class="works-screen" alt="Screen" src="App-4/Light.png"
+        onmouseover=";this.src='App-4/Dark.png'"  onmouseout="this.src='App-4/Light.png'">
+    
+        <img class="works-screen" alt="Screen" src="App-5/Light.png"
         onmouseover=";this.src='App-5/Dark.png'"  onmouseout="this.src='App-5/Light.png'">
     
-        <img class="app-1-icon" alt="Screen" src="App-6/Light.png"
+        <img class="works-screen" alt="Screen" src="App-6/Light.png"
         onmouseover=";this.src='App-6/Dark.png'"  onmouseout="this.src='App-6/Light.png'">
-    
-        <img class="app-1-icon" alt="Screen" src="App-7/Light.png"
-        onmouseover=";this.src='App-7/Dark.png'"  onmouseout="this.src='App-7/Light.png'">
         
+        <img class="works-screen" alt="Screen" src="App-7/Light.png"
+        onmouseover=";this.src='App-7/Dark.png'"  onmouseout="this.src='App-7/Light.png'">
+
+        
+    
     </div>
-    <div class="work-frame-2">
-        <img class="work-frame-2-child" alt="Screen" src="App-10/Mariposign.png"
+    <div class="works-frame-2">
+        <img id="screen-1" class="works-screen" alt="Screen" src="App-10/Mariposign.png"
         onmouseover=";this.src='App-10/Dark.png'"  onmouseout="this.src='App-10/Mariposign.png'">
         
-        <img class="work-frame-2-item" alt="Screen" src="App-11/Light.png"
+        <img id="screen-2" class="works-screen" alt="Screen" src="App-11/Light.png"
         onmouseover=";this.src='App-11/Dark.png'"  onmouseout="this.src='App-11/Light.png'">
         
-        <div class="work-frame-2-inner">
-            <img class="frame-child" alt="Screen" src="App-8/Dark.png"
+        <div class="works-screen-vertical">
+            <img class="works-screen-vertical-child" alt="Screen" src="App-8/Dark.png"
             onmouseover=";this.src='App-8/Light.png'"  onmouseout="this.src='App-8/Dark.png'">       
         </div>
 
-        <img class="frame-icon" alt="Screen" src="App-9/Light.png"
+        <img class="works-screen-horizontal" alt="Screen" src="App-9/Light.png"
         onmouseover=";this.src='App-9/Dark.png'"  onmouseout="this.src='App-9/Light.png'">
         
     </div>
