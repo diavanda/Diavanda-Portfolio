@@ -86,6 +86,10 @@ import '../styles/NavbarStyle.css'
 			socialMedia.classList.toggle("active");
 		})
 
+		document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+			hamburger.classList.remove("active");links.classList.remove("active");
+		}))
+
 
 	</script>
 
