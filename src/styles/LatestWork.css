@@ -420,6 +420,10 @@
     .card-website {
         border-radius: 18px;
     }
+
+    .latest-work {
+        gap: 24px;
+    }
 }
 
 
