@@ -223,6 +223,7 @@
     font-size: 22px;
     color: rgba(60, 60, 67, 0.6);
     font-family: Inter;
+    scroll-margin-top: 500px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
