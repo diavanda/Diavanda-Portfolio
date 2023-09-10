@@ -13,22 +13,28 @@
     gap: 32px;
 }
 
-.footer-08desktoplight {
+.links-text {
+    margin: 16px 0;
+    font-size: 20px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
+.footer-top {
     align-self: stretch;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: row;
-    padding: 24px 160px;
+    padding: 0px 40px;
     align-items: center;
     justify-content: center;
 }
-.diavanda-2023 {
+.copyright {
     position: relative;
     letter-spacing: -0.4px;
     line-height: 20px;
 }
 
-.footer-09desktoplight {
+.footer-bottom {
     align-self: stretch;
     display: flex;
     flex-direction: row;
@@ -51,8 +57,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 20px;
-    color: rgba(60, 60, 67, 0.6);
-    font-family: Inter;
 }
 
+@media (max-width: 480px) {
+    .footer-bottom {
+        flex-direction:column-reverse;
+        gap: 16px;
+        padding: 16 40px;
+    }
+}
