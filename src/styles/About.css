@@ -261,3 +261,13 @@
         gap: 24px;
     }
 }
+
+@media (max-width: 480px) {
+    .frame-wrapper {
+        border-radius: 18px;
+    }
+
+    .about {
+        gap: 24px;
+    }
+}

@@ -25,7 +25,7 @@
 
 .works-screen {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 40px;
     overflow: hidden;
     object-fit: cover;
@@ -38,7 +38,7 @@
     border-radius: 40px;
     width: 100%;
     /* height: calc(100% - 74.17px); */
-    height: auto;
+    height: 100%;
     overflow: hidden;
     flex-shrink: 0;
     background-color: #f4f4f4;
@@ -62,21 +62,21 @@ video {
     display: grid;
     gap: 40px 40px;
     height: auto;
-    grid-template-rows: repeat(5, 413.328px);
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-auto-rows: minmax(0, 1fr);
+    grid-auto-flow: row;
     
 }
 
 .works-screen-horizontal {
     object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     position: relative;
     border-radius: 40px;
     overflow: hidden;
     background-color: #f4f4f4;
     transition: 0.3s;
-    width: 100%;
-    height:initial;
     grid-column: 2 / span 2;
     grid-row: 5;
     transition: 0.3s;
@@ -95,15 +95,18 @@ video {
 }
 
 .works-screen-vertical-child {
-    width: 347px;
-    height: 854px;
+    width: 80%;
+    height: 95%;
     position: absolute;
-    bottom: 0;
-    left: 8%;
-    right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     object-position: 0px 0%;
     box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.25);
     object-fit: cover;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .works-screen-horizontal:hover {
@@ -128,20 +131,12 @@ video {
     gap: 32px;
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
+
+@media (max-width: 768px) {
+
     .works-frame-1 {
-        gap: 24px 24px;
+        grid-auto-rows: min-content;
     }
-
-    /* .works-screen-horizontal {
-        height: calc(100% - 58.17px);
-    }
-
-    .works-screen-video {
-        height: calc(100% - 58.17px);
-    } */
-}
-@media (max-width: 1024px) {
 
     .works-screen-vertical {
         grid-column: 2;
@@ -151,19 +146,25 @@ video {
     .works-screen-horizontal {
         grid-column: 1 / span 2;
         grid-row: 6;
-        height: auto;
+        height: 100%;
     }
 
     .works-screen-video {
+        height: 100%;
+    }
+
+    .works-screen {
         height: auto;
     }
 
     #tab-vertical {
         grid-column: 1 / span 2;
+        height: auto;
+        object-fit: contain;
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .works-frame-1 {
         gap: 24px 24px;
     }
@@ -183,13 +184,14 @@ video {
     .works-screen-video {
         border-radius: 18px;
     }
-
-    .works-screen-vertical-child {
-        width: 132px;
-        height: 380px;
-        top: 16px;
-        left: 16px;
-        right: 16px;
-    }
 }
 
+@media (max-width: 480px){
+    .works {
+        gap: 24px;
+        padding: 0 24px 24px;
+    }
+
+}
+
+ 
