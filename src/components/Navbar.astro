@@ -2,7 +2,7 @@
 import '../styles/global.css'
 import '../styles/NavbarStyle.css'
 ---
-
+<script src="../scripts/menu.js"></script>
 
 <body>
   	<nav class="navbar">
@@ -63,13 +63,16 @@ import '../styles/NavbarStyle.css'
 
 		<ul class="links">
 			<li class="nav-menu">
-				<a href="#aboutpage" class="nav-link">about</a>
+				<a href="#home" class="nav-link">home</a>
 			</li>
 			<li class="nav-menu">
-				<a href="#workspage" class="nav-link">works</a>
+				<a href="#works" class="nav-link">works</a>
 			</li>
 			<li class="nav-menu">
-				<a href="#contactpage" class="nav-link">contact</a>
+				<a href="#about" class="nav-link">about</a>
+			</li>
+			<li class="nav-menu">
+				<a href="#contact" class="nav-link">contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -80,16 +83,17 @@ import '../styles/NavbarStyle.css'
 		const links = document.querySelector(".links");
 		const socialMedia = document.querySelector(".social-media");
 
+
 		hamburger.addEventListener("click", () => {
 			hamburger.classList.toggle("active");
 			links.classList.toggle("active");
 			socialMedia.classList.toggle("active");
+			
 		})
 
 		document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
 			hamburger.classList.remove("active");links.classList.remove("active");
 		}))
-
 
 	</script>
 

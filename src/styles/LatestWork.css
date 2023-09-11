@@ -296,7 +296,7 @@
 
     .latest-work-card-container {
         display:block;
-        gap: 24px;
+        /* gap: 24px; */
     }
 
     .mobile-screens {
@@ -331,23 +331,23 @@
     }
 
     .card-group {
-    margin-top: 24px;
-    gap: 24px;
+        margin-top: 40px;
+        gap: 40px;
     }
 
 
-    .latest-work {
+    /* .latest-work {
         gap: 24px;
         padding: 24px 24px 0px 24px;
-    }
+    } */
 
-    .card-mobile {
+    /* .card-mobile {
         top: -24px;
     }
 
     .card-website {
         top: -24px;
-    }
+    } */
 
 }
 

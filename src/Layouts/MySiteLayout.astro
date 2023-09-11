@@ -9,7 +9,7 @@ import Contact from '../components/Contact.astro'
 import Footer from '../components/Footer.astro'
 const { title } = Astro.props
 ---
-
+<script src="../scripts/menu.js"></script>
 
 <html lang="en">
   <head>
@@ -27,8 +27,8 @@ const { title } = Astro.props
         <slot />
         <Hero />
         <LatestWork />
-        <About />
         <Works />
+        <About />
         <Testimonials />
         <Contact />
         
