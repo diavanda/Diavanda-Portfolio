@@ -23,20 +23,20 @@
     position: absolute;
     bottom: 40px;
     left: calc(50% + 49px);
-    border-radius: 12.79px;
+    border-radius: 12px;
     object-fit: cover;
     width: 142px;
     height: 308px;
-    transform: rotate(12.074deg);
+    transform: rotate(12deg);
     flex-shrink: 0;
 }
 .shadow-mobile-1 {
     position: absolute;
-    bottom: 2.49px;
-    left: calc(50% - 194.95px);
+    bottom: 2px;
+    left: calc(50% - 195px);
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.1);
-    filter: blur(42.62px);
+    filter: blur(40px);
     width: 171px;
     height: 370px;
     transform:  rotate(-5deg);
@@ -44,11 +44,11 @@
 }
 .shadow-mobile-2 {
     position: absolute;
-    bottom: 42.49px;
-    left: calc(50% + 1.05px);
+    bottom: 42px;
+    left: calc(50% + 1px);
     border-radius: 17px;
     background-color: rgba(0, 0, 0, 0.1);
-    filter: blur(42.62px);
+    filter: blur(40px);
     width: 147px;
     height: 320px;
     transform:  rotate(5deg);
@@ -69,32 +69,32 @@
 .mobile-screen-2 {
     position: absolute;
     bottom: 50px;
-    left: calc(50% - 83.44px);
+    left: calc(50% - 83px);
     border-radius: 17.05px;
     object-fit: cover;
     width: 158px;
     height: 341px;
-    transform: rotate(5.033deg);
+    transform: rotate(5deg);
     flex-shrink: 0;
 }
 
 .mobile-screen-1 {
     position: absolute;
-    left: calc(50% - 248.52px);
+    left: calc(50% - 248px);
     border-radius: 17px;
     object-fit: cover;
     width: 181px;
     height: 392px;
-    transform: rotate(-5.033deg);
+    transform: rotate(-5deg);
     flex-shrink: 0;
 }
 
 .mobile-screens {
     position: absolute;
-    top: 121.22px;
+    top: 121px;
     left: 80px;
-    width: 499.9px;
-    height: 406.26px;
+    width: 500px;
+    height: 406px;
 }
 .adamo-logo {
     position: relative;
@@ -138,18 +138,18 @@
     position: absolute;
     bottom: 0px;
     left: calc(50% + 16.09px);
-    width: 233.91px;
+    width: 234px;
     height: 627px;
     object-fit: cover;
     flex-shrink: 0;
-    object-position: 0px 100%;
+    object-position: 100%;
 }
 
 .website-screen-2 {
     position: absolute;
     bottom: 0px;
     left: calc(50% - 250px);
-    width: 331.03px;
+    width: 331px;
     height: 696px;
     object-fit: cover;
     flex-shrink: 0;
