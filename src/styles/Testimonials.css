@@ -186,6 +186,7 @@
 }
 
 @media (max-width: 429px) {
+
     .testimonials-card-container {
         max-height: 515px;
         justify-content: flex-start;
@@ -198,7 +199,7 @@
     
  
     .testimonials-card {
-        min-width: 194px;
+        min-width: 267px;
         object-fit: cover;
         scroll-snap-align: start;
     }
@@ -213,16 +214,14 @@
     }
 
     .work-at {
-        font-size: 17px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 20px;
     }
 
     .testimonial-content {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 17px;
+        line-height: 22px;
     }
 }
-
-
 
 
