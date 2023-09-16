@@ -127,11 +127,6 @@
     flex-shrink: 0;
     object-position: 0px 0%;
 }
-.website-screens {
-    position: absolute;
-    width: 500px;
-    height: 696px;
-}
 
 .card-website {
     width: 100%;
