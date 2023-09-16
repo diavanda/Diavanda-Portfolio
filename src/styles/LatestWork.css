@@ -32,7 +32,6 @@
 .shadow-mobile-1 {
     position: absolute;
     bottom: 2px;
-    left: 15%;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.1);
     filter: blur(40px);
@@ -44,7 +43,6 @@
 .shadow-mobile-2 {
     position: absolute;
     bottom: 42px;
-    left: 50%;
     border-radius: 17px;
     background-color: rgba(0, 0, 0, 0.1);
     filter: blur(40px);
@@ -77,7 +75,6 @@
 
 .mobile-screen-1 {
     position: absolute;
-    left: calc(50% - 248px);
     border-radius: 17px;
     object-fit: cover;
     width: 181px;
