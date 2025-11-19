@@ -39,6 +39,7 @@ const { title } = Astro.props
     <title>{title}</title>
     <link rel="icon" type="image/x-icon" href="Desktop/Logo.svg">
 
+    
   
   </head >
 
@@ -46,18 +47,21 @@ const { title } = Astro.props
     <Navbar />
    
     <main >
-        <!-- <slot /> -->
-        <Hero />
-        <LatestWork />
-        <Works />
-        <About />
-        <Testimonials />
-        <Contact />
+        <section><Hero /></section>
+        <section> <LatestWork /></section>
+        <section><Works /></section>
+        <section><About /></section>
+        <section><Testimonials /></section>
+        <section><Contact /></section>
     </main>
     <Footer />
 
     <script type="module" src="/scripts/menu.js"></script>
     <script type="module" src="/scripts/locomotive-scroll.min.js"></script>
     <script type="module" src="/scripts/locomotive-init.js"></script>
+  
+    <!-- The LocomotiveScroll initialization is handled in /scripts/locomotive-init.js -->
+  
+
   </body>
 </html>
