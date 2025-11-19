@@ -15,14 +15,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 32px;
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
     color: rgba(60, 60, 67, 0.6);
 }
 
 .text.testi {
-    padding: 0 40px 32px;
+    /* padding: 0 40px 32px; */
+    padding-top: 120px;
+    padding-bottom: 54px;
 }
 
 .client-name {
@@ -100,8 +102,8 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    gap: 32px;
     text-align: left;
+    max-width: 1440px;
 }
 
 @media (max-width: 480px) {

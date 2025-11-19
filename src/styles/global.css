@@ -1,20 +1,18 @@
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: var(--scroll-padding,100px);
-
-  
- 
+  /* scroll-behavior: smooth; */
+  /* scroll-padding-top: var(--scroll-padding,100px); */
 }
 
 body {
-  max-width: 1440px;
-  margin: 0 auto;
+  margin: 0;
   line-height: normal;
   font-family: Inter, sans-serif;
-
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
   
 }
-
-
-
 

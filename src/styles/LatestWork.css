@@ -18,6 +18,8 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
+    padding-top: 120px;
+    padding-bottom: 24px;
     
 }
 .mobile-screen-3 {
@@ -192,6 +194,7 @@
     font-size: 22px;
     color: rgba(60, 60, 67, 0.6);
     font-family: Inter;
+    max-width: 1440px;
 }
    
 @media (max-width: 768px) {

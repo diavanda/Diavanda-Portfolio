@@ -9,15 +9,20 @@ import Testimonials from '../components/Testimonials.astro'
 import Contact from '../components/Contact.astro'
 import Footer from '../components/Footer.astro'
 
+
+
+
+
 const { title } = Astro.props
+
 ---
-<script src="../scripts/menu.js"></script>
+
+
 
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-  
     <meta property="og:title" content="Diavanda's Portfolio"/>
     <meta property="og:image" content="https://diavanda.com/Thumbnail.jpg"/>
     <meta property="og:description" content="Step into the creative realm of Diavanda's Portfolio, where design innovation meets front-end wizardry. Explore the artistry of UI/UX design and web development."/>
@@ -28,23 +33,31 @@ const { title } = Astro.props
     <meta property="twitter:title" content="Diavanda's Portfolio"/>
     <meta property="twitter:description" content="Step into the creative realm of Diavanda's Portfolio, where design innovation meets front-end wizardry. Explore the artistry of UI/UX design and web development."/>
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />	
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" />
+    
 
     <title>{title}</title>
     <link rel="icon" type="image/x-icon" href="Desktop/Logo.svg">
-  </head>
-  <body>
+
+  
+  </head >
+
+  <body data-scroll-container >
     <Navbar />
    
-    <main>
-        <slot />
+    <main >
+        <!-- <slot /> -->
         <Hero />
         <LatestWork />
         <Works />
         <About />
         <Testimonials />
         <Contact />
-        
     </main>
     <Footer />
+
+    <script src="../scripts/menu.js"></script>
+    <script type="module" src="/src/scripts/locomotive-scroll.min.js"></script>
+    <script type="module" src="/src/scripts/locomotive-init.js"></script>
   </body>
 </html>

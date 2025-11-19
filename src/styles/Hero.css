@@ -2,6 +2,7 @@
     position: relative;
     letter-spacing: -0.4px;
     line-height: 41px;
+    font-size: 48px;
 }
 .a-uiux-designer {
     position: relative;
@@ -10,13 +11,14 @@
     color: rgba(60, 60, 67, 0.6);
     display: inline-block;
     width: 100%;
+    font-size: 24px;
 }
 .caption-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4px;
+    gap: 24px;
 }
 
 .button {
@@ -73,6 +75,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .hero {
@@ -88,7 +91,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 34px;
     color: #3c3c3c;
     font-family: Inter;
 }
@@ -97,12 +99,9 @@
 
 @media (max-width: 768px) {
     .allan-febrian-diavanda {
-        font-size: 28px;
+        font-size: 24px;
     }
 
-    .a-uiux-designer {
-        font-size: 28px;
-    }
 
     .splinetool {
         padding-top: 32px;

@@ -10,7 +10,7 @@
     justify-content: center;
     gap: 32px;
     text-align: left;
-    
+    max-width: 1440px;
 }
 
 .container-card {

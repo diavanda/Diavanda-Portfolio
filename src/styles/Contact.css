@@ -52,6 +52,7 @@
     text-align: left;
     font-size: 22px;
     color: rgba(60, 60, 67, 0.6);
+    max-width: 1440px;
 }
 
 @media (max-width: 768px) {
