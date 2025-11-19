@@ -43,25 +43,37 @@ const { title } = Astro.props
   
   </head >
 
-  <body data-scroll-container >
+  <body > 
     <Navbar />
-   
-    <main >
-        <section><Hero /></section>
-        <section> <LatestWork /></section>
-        <section><Works /></section>
-        <section><About /></section>
-        <section><Testimonials /></section>
-        <section><Contact /></section>
-    </main>
-    <Footer />
-
-    <script type="module" src="/scripts/menu.js"></script>
-    <script type="module" src="/scripts/locomotive-scroll.min.js"></script>
-    <script type="module" src="/scripts/locomotive-init.js"></script>
+        <main data-scroll-container>
+            <Hero  />
+            <LatestWork />
+            <Works />
+            <Testimonials />
+            <Contact />
+        </main>
   
-    <!-- The LocomotiveScroll initialization is handled in /scripts/locomotive-init.js -->
-  
+   <Footer />
+     
 
+    <script type="module" src="/src/scripts/menu.js"></script>
+    <!-- <script type="module" src="/src/scripts/locomotive-scroll.min.js"></script>
+    <script type="module" src="/src/scripts/locomotive-init.js"></script> -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const sections = document.querySelectorAll("section");
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            }
+          });
+        }, { threshold: 0.15 });
+
+        sections.forEach(section => observer.observe(section));
+      });
+    </script>
+    
   </body>
 </html>
